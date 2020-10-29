@@ -1,0 +1,24 @@
+{
+    "name": "robot/declaration",
+    "description": "robot automation declaration in work wechat",
+    "type": "library",
+    "require-dev": {
+        "guzzlehttp/guzzle": "6.5.x-dev",
+        "monolog/monolog": "1.x-dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joseph Liang",
+            "email": "438676032@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Robot\\": "src/"
+        }
+    }
+}
