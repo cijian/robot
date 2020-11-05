@@ -1,6 +1,6 @@
 <?php
 
-namespace Robot;
+namespace WorkRobot;
 
 /**
  * Interface RobotInterface
@@ -8,6 +8,7 @@ namespace Robot;
 interface RobotInterface {
 
     public function sendRecordByRobot();
-    public function getTypeContent();
+    public function getTypeContent($class_name, $replace_arr, $closureData);
+    public function setMarkdown($mstype);
 
 }
