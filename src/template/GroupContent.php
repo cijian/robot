@@ -32,7 +32,7 @@ class GroupContent extends Template
             'text' => [
                 'content' => &$this->template,
                 'mentioned_mobile_list' => [
-                    '18820932546',   //@客户服务部-Penny.Shl石鹤玲
+                    '18025463830',   //@客户服务部-Penny.Shl石鹤玲
                     '13480177643',   //@运营DIY组-Maggie.zd张丹'
                 ]
             ],
